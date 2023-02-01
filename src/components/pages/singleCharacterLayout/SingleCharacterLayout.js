@@ -1,5 +1,5 @@
 import './SingleCharacterLayout.scss';
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 const SingleCharacterLayout = ({data}) => {
 
@@ -10,7 +10,7 @@ const SingleCharacterLayout = ({data}) => {
             <Helmet>
                 <meta
                     name="description"
-                    content={`${name} character info`}
+                    content={`${name} page`}
                 />
                 <title>{name}</title>
             </Helmet>
